@@ -1,5 +1,6 @@
 
-# What This code shows how the C++ STL container methods push_back and
+# What 
+This code shows how the C++ STL container methods push_back and
 emplace_back are different.
 
 # How
