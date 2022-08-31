@@ -13,7 +13,7 @@ public:
 	int x;
 
 	// Parameterized Constructor
-	GFG(int x)
+	explicit GFG(int x)
 		: x(x)
 	{
 		cout << "Constructor=>"
@@ -41,8 +41,7 @@ int main()
 	// Vector of object of GFG class
 	// is created
 	vector<GFG> vertices;
-	cout << "length of vertices:" << vertices.size()
-		<< endl;
+	cout << "length of vertices:" << vertices.size() << endl;
 
 	// Inserting elements in the object
 	// created using emplace_back() method
@@ -59,3 +58,5 @@ int main()
 
 	return 0;
 }
+
+#if 0

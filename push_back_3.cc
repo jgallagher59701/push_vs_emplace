@@ -42,10 +42,9 @@ int main()
 	// is created
 	vector<GFG> vertices;
 
-        vertices.reserve(3);
+    vertices.reserve(3);
         
-	cout << "length of vertices:" << vertices.size()
-		<< endl;
+	cout << "length of vertices:" << vertices.size() << endl;
 
 	// Inserting elements in the object
 	// created using push_back() method
