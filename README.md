@@ -15,6 +15,9 @@ with a call to reserve to pre-allocate memory for the vector is the best
 performance of the six programs.
 
 ## The push_back method does not understand move semantics
+...But emplace_back does.
+
+In all cases, `vertices` is defined as `vector<GFG>`.
 
 ### Look at the push_back method
 A simple use of the push_back method on an object with its own constructor,
@@ -227,6 +230,7 @@ are called the minimal number of times.
 	cout << endl;
 
 Output:
+    
     length of vertices:0
     
     Constructor=>x:1
